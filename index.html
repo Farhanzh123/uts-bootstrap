@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Situs Web Sederhana dengan Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/9ab2a4b288.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand" href="#">
+        <img src="img/desain.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+      </a>
+      <a class="navbar-brand" href="#">Farhan Zaiz Hanafi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#beranda">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skill">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portofolio">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <div id="beranda" class="container-fluid banner">
+    <div class="container text-center">
+      <h3 class="display-6"> Selamat Datang di website saya</h3>
+      <h4 class="display-5">Jadi programmer adalah sebuah Lorem, ipsum dolor.</h4>
+      <br>
+      <button type="button" class="btn btn-danger btn-lg">Selengkapnya</button>
+    </div>
+  </div>
+  <div id="Skill" class="container-fluid pt-5 pb-5 bg-light text-black">
+    <div class="container text-center">
+      <div class="container">
+        <div class="row">
+          <h2 class="display-4">Skill</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, adipisci.</p>
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+            <h3 class="mt-4">programmer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officiis.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-brands fa-windows fa-5x"></i></i></span>
+            <h3 class="mt-4">programmer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officiis.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-brands fa-android fa-5x"></i></span>
+            <h3 class="mt-4">programmer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, officiis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="portofolio" class="container-fluid pt-5 pb-5 bg-light text-black" style="padding:100px 20px;">
+    <div class="container text-center">
+      <h2 class="display-4" id="portofolio">Portofolio</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus dolorum sint explicabo, possimus
+        vel aut animi. Cum, et. Error magnam ullam modi officia. A, ipsum ducimus odit mollitia saepe sit labore
+        quibusdam dolorem, consequuntur numquam iste fugit, et aliquam ipsam vitae facilis libero nam eligendi amet
+        cumque quo nulla!</p>
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img src="img/gg.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolorum?
+                </p>
+                <a href="#" class="btn btn-primary">Lihat profile</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img src="img/sagyah.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolorum?
+                </p>
+                <a href="#" class="btn btn-primary">Lihat profile</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img src="img/iu2.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolorum?
+                </p>
+                <a href="#" class="btn btn-primary">Lihat profile</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.jpg" alt="Chicago" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <div id="profile" class="container-fluid pt-4 gx-4 gy-4 bg-light text-black">
+    <div class="container text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <h2 class="display-4" id="profile">Iki isun</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sequi.</p>
+
+          <div class="col-md-4 text-center tim">
+            <img src="img/pee.jpg" class="rounded-circle mb-3">
+            <h4> iki parhan</h4>
+            <p>web enginer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img src="img/pee.jpg" class="rounded-circle mb-3">
+            <h4> iki parhan</h4>
+            <p>web enginer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img src="img/pee.jpg" class="rounded-circle mb-3">
+            <h4> iki parhan</h4>
+            <p>web enginer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid pt-5 pb-5 Kontak" id="kontak">
+    <div class="container-fluid">
+      <h2 class="display-4 text-center">kontak isun</h2>
+      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, laudantium.</p>
+      <div class="row pb-3">
+        <div class="col-md-6">
+          <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama">
+          <input class="form-control form-control-lg mb-3" type="text" placeholder="Email">
+          <input class="form-control form-control-lg mb-3" type="text" placeholder="No. Telp">
+        </div>
+        <div class="col-md-6">
+          <textarea class="form-control form-control-lg" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="col-md-3 mx-auto text-center">
+        <button type="button" class="btn btn-danger btn-lg">
+          Kirim Pesan
+        </button>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-white p-4">
+    <div class="container-fluid px-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>About Us</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et lacus sit amet turpis aliquet
+            tincidunt. Integer et ullamcorper velit.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Contact Us</h5>
+          <address>
+            Kemiren, Glagah, Banyuwangi. <br>
+            Jawa Timur, Indonesia <br>
+            <abbr title="Phone">P:</abbr> +62-8213-9822-025
+          </address>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-12 text-center">
+          <p>web iki copyright ambi cak parhan &copy; 2024</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

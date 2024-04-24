@@ -1,0 +1,58 @@
+.banner{
+    background: url(https://png.pngtree.com/background/20230616/original/pngtree-web-page-security-protection-system-a-3d-rendered-design-picture-image_3653128.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: aliceblue;
+}
+footer {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+
+  }
+
+  body {
+    position: relative;
+  }
+  .lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: aliceblue;
+    background-color: red;
+  }
+
+  .lingkaran i{
+    position: relative;
+    top: 30px;
+  }
+
+  .tim img{
+    width: 250px;
+    border: 10px solid #cccc;
+  }
+  a.social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: black;
+    padding-top: 10px;
+  }
+.Kontak{
+    background: url(https://www.bonaire.com.au/cdn/shop/files/1440_x_750_Contact_Us_02.jpg?v=1632891203) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: azure;
+
+}
+.Skill{
+  display: flex;
+}
+.navbar{
+}
